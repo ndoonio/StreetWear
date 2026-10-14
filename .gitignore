@@ -22,3 +22,31 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# Configurazioni Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# Cartelle generate dalla compilazione
+bin/
+build/
+target/
+
+# Configurazioni Visual Studio Code
+.vscode/
+
+# Configurazioni IntelliJ
+.idea/
+*.iml
+
+# File temporanei
+.DS_Store
+Thumbs.db
+
+# File contenenti credenziali private
+.env
+.env.*
+!.env.example
